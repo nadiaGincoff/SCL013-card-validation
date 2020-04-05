@@ -1,0 +1,59 @@
+.informacion {
+    width: 50%;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: red
+}
+
+
+h1 {
+    background-color: green;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #F2CED8;
+}
+
+.formulario {
+    border: 2px;
+    border-radius: 5%;
+    background-color: #F2F2F2 ;
+    position: center;
+
+  width  : 35%;
+  height : 498px;
+  margin : 6%;
+  text-align: center;
+
+}
+
+
+.button {
+    width: 15%;
+  height: 30px;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  position: right;
+  z-index: 3;
+  letter-spacing: 2px;
+  background-color: #8C1663;
+  font-family: 'Playfair Display', serif;
+  display: inline-block;
+  
+}
+.footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 2%;
+        background-color: #F2D43D;
+        text-align: right;
+      }
