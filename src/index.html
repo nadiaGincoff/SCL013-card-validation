@@ -1,107 +1,98 @@
-<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!--------- pagina 1----------->
+  <body>
+    <div id= "general">
 
-<head>
-  <meta charset="utf-8">
-  <title>Tarjeta de crédito válida</title>
-  <link rel="stylesheet" href="style.css" />
+      <div id="superior">
+   <header>
+      <h1><img src="logo.jpg" alt="Amiga, yo te llevo"><h1> 
+    </header>
+      </div>
 
-  <script src="index.js" type="module"></script>
-</head>
-<!--------- pagina 1----------->
-
-<body>
-  <header>
-    <h1><img src="logo.jpg" alt="Amiga, yo te llevo"> -->
-       </h1> 
-  </header>
-  <hr>
-
-  <main class="principal">
-    <div id="registro">
-    <div id="informacion" class="informacion">
+      <div id="informacion">
+    <main>
       <h2>Bienvenida a nuestra comunidad de mujeres al volante
-        Sabemos que transportarnos, para nosotras, es un momento en el cual
-        nos sentimos vulnerables,por eso llegó "Amiga, yo te llevo!",
-        una app pensada y diseñada por mujeres,para todas nosotras.
-        Tu como usuaria,conductora o pasajera, simplemente registrandote en nuestra app
-        ya serás parte de nuestra comunidad y podrás comenzar a disfrutar
-        de viajes seguros y confiables.
-      </h2>
-    </div>
-
+          Sabemos que transportarnos, para nosotras, es un momento en el cual
+          nos sentimos vulnerables,por eso llegó "Amiga, yo te llevo!",
+          una app pensada y diseñada por mujeres,para todas nosotras.
+          Tu como usuaria,conductora o pasajera, simplemente registrandote en nuestra app
+          ya serás parte de nuestra comunidad y podrás comenzar a disfrutar
+          de viajes seguros y confiables.</h2>
+        </main>
+        </div>
+      
     <div id="registrarse">
-      <input type="button" class="button" value="Unete a nuestra comunidad" onclick="mostrarFormulario()">
+    <button onclick="Formulario()">REGISTRARSE!</button>
+    <br>
+    <br>
+    <br>
+  </div>
+</div>
 
-    </div>
-    </div>
+  <!--------- formulario ---------->
+  <form id="formulario" class="formulario">
 
-    <!--------- formulario ---------->
-    <form id="formulario" class="formulario" style="display: none;">
+    <label for="name">nombre</label><br>
+    <input type="text" class="celda">
+    <br>
 
-      <label for="name" id="nombre">nombre</label><br>
-      <input type="text" class="celda" required>
-      <br>
+    <label for="name">apellido</label>
+    <br>
+    <input type="text" class="celda">
+    <br>
 
-      <label for="name" id="apellido"> apellido</label>
-      <br>
-      <input type="text" class="celda" required>>
-      <br>
+    <label for="name">edad </label>
+    <br>
+    <input type="number" id="age" name="age" min="10" max="80" placeholder="edad">
+    <br>
 
-      <label for="name" required=> edad </label>
-      <br>
-      <input type="number" class="celda" id="age" name="age" min="10" max="80" placeholder="edad">
-      <br>
+    <label>Sexo:
+      <input type="radio" name="hm" value="h"> Hombre
+      <input type="radio" name="hm" value="m"> Mujer
+    </label>
+    <br>
 
-      <label>Sexo:
-        <input type="radio" name="hm" value="h"> Hombre
-        <input type="radio" name="hm" value="m"> Mujer
-      </label>
-      <br>
+    <label for="email-example">correo electrónico</label>
+    <br>
+    <input type="email" id="email-example" placeholder="Email" name="email-example" required/>
+    <br>
 
-      <label for="email-example">correo electrónico</label>
-      <br>
-      <input type="email" class="celda" id="email-example" placeholder="Email" name="email-example" required>
-      <br>
+    <label for="email-example">correo electrónico de respaldo</label>
+    <br>
+    <input type="email" id="email-example" placeholder="Email" name="email-example" required/>
+    <br>
 
-      <label for="email-example">Contacto de confianza </label>
-      <br>
-      <input type="email" class="celda" id="email-2" placeholder="Email" name="email-example" required>
-      <br>
+    <label for="password-example">Contraseña</label>
+    <br>
+    <input type="password" id="password-example" placeholder="password" name="password-example" required/>
+    <br>
 
-      <label for="password-example">Contraseña</label>
-      <br>
-      <input type="password" class="celda" id="password-example" placeholder="password" name="password-example" required>
-      <br>
+    <input type="tel" id="target" name="target" min="12" max="12">
+    <br>
 
-      <label for="target" id="targetNumberDescription">Ingrese su numero de tarjeta</label>
-      <br>
-      <input type="text" class="celda" id="targetNumber" required>
-      <br>
+    <label>
+      <input type="checkbox" name="conditions" value="accept-conditions" checked />
+      Acepto los términos y condiciones
+    </label>
 
-      <label>
-        <input type="checkbox" name="conditions" value="accept-conditions" checked />
-        Acepto los términos y condiciones
-      </label>
-      <br>
+  </form>
 
-      <button id="enviar" onclick="enviarFormulario">Registrarse</button>
-    </form>
-    
-      <h3 style="display: none;"> !Gracias por registrarte!
-        Ya eres parte de esta gran comunidad y puedes empezar a disfrutar de
-        nuestra aplicacion.
 
-        Que el transportarte nunca mas sea motivo de miedo para ti.
-        Mueve donde quieras y a la hora que quieres.
-        Ser amigas esta de moda.<h3>
-
-    
+  
   </main>
 
-  <div id=redessociales class="footer">
+    <div id= redessociales>
     <footer>Siguenos en nuestras redes sociales</footer>
-  </div>
+    </div>
 
-</body>
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
+
+
+

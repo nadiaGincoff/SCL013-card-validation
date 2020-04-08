@@ -1,0 +1,51 @@
+*{margin: 0 auto;
+    padding:0;
+  }
+  #general{
+      margin:auto;
+      margin-top: 20px;
+      width: 1000px;
+      height: 700px;
+      background-color: white;
+      color: darkmagenta;
+  
+  }
+  #superior{
+      width: 198px;
+      height: 300px;
+      background-color: white;
+  }
+  #informacion{
+      float: left;
+      width: 550px;
+      height:250px ;
+      background-color: turquoise;
+      text-align: center;
+  }
+  #registrarse{
+      width: 100px;
+      height: 100px;
+      float: right;
+      background-color:darkmagenta;
+  }
+  #redessociales{
+      width: 550px;
+      height: 100px;
+      background-color: lightcoral;
+      float: inline-start;
+      
+  
+  }
+  /*header{
+      background-color: blue;
+  }
+  h1{
+      text-align: center;
+  }
+  footer{
+      background-color: crimson;
+  }
+  h2{
+      text-align: left;
+  }/*
+  
