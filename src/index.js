@@ -43,7 +43,3 @@ btnEnviar.addEventListener("submit", function(event){
     enviarFormulario();
     // validator.isValid();
 }) 
-
-
-
-
