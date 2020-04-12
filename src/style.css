@@ -1,51 +1,98 @@
-*{margin: 0 auto;
-    padding:0;
-  }
-  #general{
-      margin:auto;
-      margin-top: 20px;
-      width: 1000px;
-      height: 700px;
-      background-color: white;
-      color: darkmagenta;
-  
-  }
-  #superior{
-      width: 198px;
-      height: 300px;
-      background-color: white;
-  }
-  #informacion{
-      float: left;
-      width: 550px;
-      height:250px ;
-      background-color: turquoise;
-      text-align: center;
-  }
-  #registrarse{
-      width: 100px;
-      height: 100px;
-      float: right;
-      background-color:darkmagenta;
-  }
-  #redessociales{
-      width: 550px;
-      height: 100px;
-      background-color: lightcoral;
-      float: inline-start;
-      
-  
-  }
-  /*header{
-      background-color: blue;
-  }
-  h1{
-      text-align: center;
-  }
-  footer{
-      background-color: crimson;
-  }
-  h2{
-      text-align: left;
-  }/*
-  
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+.izquierda{
+    background:url(image.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;  
+}
+.titulo{
+    color:#8C1663;
+}
+
+.derecha{
+    background:#F2D43D;
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+}
+
+#pantalla-dividida{
+    display: flex;
+}
+
+h1{
+    color:#F2F2F2;
+    font-size: 60px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+p{
+    color:#A6147F;
+    font-size: 24px;
+    line-height: 33px;
+    width: 50%;
+    margin:auto;
+    text-align:center;
+    padding: 30px;
+    display: table-cell;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    color: #A6147F;
+}
+
+button{
+    border: 3px solid #A6147F;
+    color:#A6147F;
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.formularioamarillo{
+    width:1600px;
+    height: 900px;
+    background:#F2D43D;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+
+}
+.formularioblanco{
+    width: 600px;
+    height: 750px;
+    background: #FCFCFF;
+    position: absolute;
+    left: 31%;
+    top: 2%;
+    font-family: 'Playfair Display', serif;
+    color: #A6147F;
+    text-align: center;
+    font-weight: bold;"
+}s
+.demo{
+    width: 380px;
+    height: 130px;
+    background: #F2CED8;
+    border-radius: 20px;
+    border: 5px solid #8C1663;
+    margin: 15px;
+    padding: 13px;
+    position: absolute;
+    margin-left: 85px;
+}
+#formulario{
+    display: none;
+}
+#registro{
+    display: none;
+}
