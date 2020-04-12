@@ -1,98 +1,131 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <!--------- pagina 1----------->
-  <body>
-    <div id= "general">
 
-      <div id="superior">
-   <header>
-      <h1><img src="logo.jpg" alt="Amiga, yo te llevo"><h1> 
-    </header>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <section id="pantalla-dividida">
+    <div class="izquierda">
+    </div>
+    <div class="derecha">
+      <h1><span class="titulo">Amiga</span>
+        <br>
+        Yo te llevo</h1>
 
       <div id="informacion">
-    <main>
-      <h2>Bienvenida a nuestra comunidad de mujeres al volante
-          Sabemos que transportarnos, para nosotras, es un momento en el cual
-          nos sentimos vulnerables,por eso llegó "Amiga, yo te llevo!",
-          una app pensada y diseñada por mujeres,para todas nosotras.
-          Tu como usuaria,conductora o pasajera, simplemente registrandote en nuestra app
-          ya serás parte de nuestra comunidad y podrás comenzar a disfrutar
-          de viajes seguros y confiables.</h2>
-        </main>
-        </div>
-      
-    <div id="registrarse">
-    <button onclick="Formulario()">REGISTRARSE!</button>
-    <br>
-    <br>
-    <br>
-  </div>
-</div>
+        <p>
+          Sabemos que transportarnos,movernos,trasladarnos,
+          para nosotras es una situacion complicada,
+          nos sentimos vulnerables,intranquilas y muchas veces
+          con miedo por eso llegó "Amiga, yo te llevo",
+          <br>
+          Tu como usuaria,"conductora o pasajera",
+          podras sentir mayor seguridad al momento de elegir una app
+          para movilizarte, simplemente registrandote en un sencillo
+          formulario ya serás parte de nuestra comunidad
+          y podrás comenzar a disfrutar de viajes seguros y confiables.</p>
+        <h2>Queremos que la SORORIDAD se vuelve costumbre.</h2>
 
-  <!--------- formulario ---------->
-  <form id="formulario" class="formulario">
-
-    <label for="name">nombre</label><br>
-    <input type="text" class="celda">
-    <br>
-
-    <label for="name">apellido</label>
-    <br>
-    <input type="text" class="celda">
-    <br>
-
-    <label for="name">edad </label>
-    <br>
-    <input type="number" id="age" name="age" min="10" max="80" placeholder="edad">
-    <br>
-
-    <label>Sexo:
-      <input type="radio" name="hm" value="h"> Hombre
-      <input type="radio" name="hm" value="m"> Mujer
-    </label>
-    <br>
-
-    <label for="email-example">correo electrónico</label>
-    <br>
-    <input type="email" id="email-example" placeholder="Email" name="email-example" required/>
-    <br>
-
-    <label for="email-example">correo electrónico de respaldo</label>
-    <br>
-    <input type="email" id="email-example" placeholder="Email" name="email-example" required/>
-    <br>
-
-    <label for="password-example">Contraseña</label>
-    <br>
-    <input type="password" id="password-example" placeholder="password" name="password-example" required/>
-    <br>
-
-    <input type="tel" id="target" name="target" min="12" max="12">
-    <br>
-
-    <label>
-      <input type="checkbox" name="conditions" value="accept-conditions" checked />
-      Acepto los términos y condiciones
-    </label>
-
-  </form>
-
-
-  
-  </main>
-
-    <div id= redessociales>
-    <footer>Siguenos en nuestras redes sociales</footer>
+        <button id="btnRegistrarse"> Unete a nuestra comunidad </button>
+      </div>
     </div>
+  </section>
 
-    <script src="index.js" type="module"></script>
-  </body>
+  <!--pagina 2 Formulario-->
+  <div id="formulario" class="formularioamarillo" style="display: none;">
+
+    <div class="formularioblanco">
+      <img src="logoamarillo.png" alt="amiga, yo te llevo" id="logo">
+
+      <form id="datos1" class="datos">
+
+        <label for="name">Nombre</label>
+        <br>
+        <input type="text" class="celda" min="3" max="15" required />
+        <br>
+w
+        <label for="name">Apellido</label>
+        <br>
+        <input type="text" class="celda" min="3" max="15" required />
+        <br>
+
+        <label for="name">Edad </label>
+        <br>
+        <input type="number" id="age" name="age" min="10" max="80" placeholder="edad">
+        <br>
+
+        <label>Sexo:
+          <input type="radio" name="hm" value="h"> Hombre
+          <input type="radio" name="hm" value="m"> Mujer
+        </label>
+        <br>
+
+        <label for="email-example">Correo Electrónico</label>
+        <br>
+        <input type="email" id="email-principal" placeholder="Email" name="email-example" required />
+        <br>
+
+        <label for="email-example">Contacto de Confianza</label>
+        <br>
+        <input type="email" id="email-confianza" placeholder="Email" name="email-example" required />
+        <br>
+
+        <label for="password-example">Contraseña</label>
+        <br>
+        <input type="password" id="password-example" placeholder="password" name="password-example" required />
+        <br>
+        <label for="tel">Número Telefónico</label>
+        <br>
+        <input type="tel" id="target" name="target" min="12" max="12">
+        <br>
+
+        <label>
+          <input type="checkbox" name="conditions" value="accept-conditions" checked />
+          Acepto los términos y condiciones
+        </label>
+      </form>
+
+
+      <div class="demo">
+        <form><span>VALIDADOR</span>
+          <br>
+          <label for="card_number">NUMERO DE TARJETA DE CREDITO</label>
+          <br>
+          <input type="text" placeholder="1234 5678 9012 3456" id="numeroDeTarjeta" name="cc_number">
+          <br>
+          <small class="help">Valida tarjetas: Visa, MasterCard, American Express.</small>
+
+          <li class="validador">
+            <label for="">VALIDAR</label>
+            <br>
+            <input type="submit" id="btnValidar" name="btnValidar" value="Click">
+          </li>
+        </form>
+      </div>
+      <button id="btnEnviar">Registrate con Nosotras</button>
+    </div>
+  </div>
+  
+<!-- Se podria hacer que el btn enviar valide el boton para registrarse, sino, no se puede utilizar -->
+
+  <div id="mensajeFinal" style="display: none;">
+    <p>!Gracias por registrarte!
+      Ya eres parte de esta gran comunidad y puedes empezar a disfrutar de
+      nuestra aplicacion.
+
+      Que el transportarte nunca mas sea motivo de miedo para ti.
+      Mueve donde quieras y a la hora que quieres.
+      Ser amigas esta de moda.</p>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
-
-
 
