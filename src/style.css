@@ -3,35 +3,54 @@ body{
     padding: 0;
     font-family: 'Playfair Display', serif;
 }
-.izquierda{
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8C1663;
+    text-align: center;
+    height: 5%;
+}
+  .footerContent {
+    color: white;
+    text-align: left;
+    padding-left: 20%;
+}
+.izquierda {
     background:url(image.png);
     background-size: cover;
     background-position: center;
     width: 50%;
     height: 100vh;  
 }
-.titulo{
+.titulo {
     color:#8C1663;
 }
 
-.derecha{
+.derecha {
     background:#F2D43D;
     height: 100vh;
     width: 50%;
     text-align: center;
 }
-
-#pantalla-dividida{
-    display: flex;
+.pantallaBienvenida {
+    display: flex;   
 }
-
-h1{
+h1 {
     color:#F2F2F2;
     font-size: 60px;
     margin-bottom: 5px;
     text-align: center;
 }
-p{
+h3{
+    color:#F2F2F2;
+    font-size: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 0px;
+}
+p {
     color:#A6147F;
     font-size: 24px;
     line-height: 33px;
@@ -41,13 +60,12 @@ p{
     padding: 30px;
     display: table-cell;
 }
-h2{
+h2 {
     text-align: center;
     font-size: 25px;
     color: #A6147F;
 }
-
-button{
+button {
     border: 3px solid #A6147F;
     color:#A6147F;
     padding: 25px;
@@ -59,40 +77,118 @@ button{
     font-size: 15px;
     font-weight: bold;
 }
-.formularioamarillo{
-    width:1600px;
-    height: 900px;
-    background:#F2D43D;
-    position: relative;
+.pantallaFormulario {
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
     font-family: 'Playfair Display', serif;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formulario {
+    border: 1px #8c1663;
+    background: #8c1663;
+    width: 500px;
+    border-radius: 10px;
+}
+.formularioValidacion{
+    width: 100%;
+    padding: -2px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    background: #8c1663;
+    margin-bottom: -9px;
+}
+.formularioIndex{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.label {
+    font-size: large;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.celda {
+    width: 100%;
+    padding: 2px 20px;
+    margin: 2px 0;
+    border: 0px;
+    box-sizing: border-box;
+    background-color: #FFFEE6;
+    border-radius: 10px;
+}
+.btnValidar {
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F2D43D;
+    color: #8c1663;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+}
+.btnEnviar {
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F2D43D;
+    color: #8c1663;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 150px;
+    font-family: 'Playfair Display', serif;}
+    
+.ti{
+    color: #F2D43D;
+}
+.tituloFormulario{
+    font-family: 'Playfair Display', serif;
+    color: #F2D43D;
 
 }
-.formularioblanco{
-    width: 600px;
-    height: 750px;
-    background: #FCFCFF;
-    position: absolute;
-    left: 31%;
-    top: 2%;
+.legend{
     font-family: 'Playfair Display', serif;
-    color: #A6147F;
-    text-align: center;
-    font-weight: bold;"
-}s
-.demo{
-    width: 380px;
-    height: 130px;
-    background: #F2CED8;
-    border-radius: 20px;
-    border: 5px solid #8C1663;
-    margin: 15px;
-    padding: 13px;
-    position: absolute;
-    margin-left: 85px;
+    color: #F2D43D;
 }
-#formulario{
-    display: none;
+fieldset{
+    margin-bottom: 2px;
 }
-#registro{
-    display: none;
+.pantalla3{
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.mensaje {
+    border: 1px #8c1663;
+    background: #8c1663;
+    width: 500px;
+    border-radius: 10px;
+    height: 750px;
+    margin-left: 550px;
+}
+   
+h4 {
+    color: #F2F2F2;
+    font-size: 24px;
+    line-height: 33px;
+    width: 50%;
+    margin:auto;
+    text-align:center;
+    padding: 30px;
+    display: table-cell;
 }
