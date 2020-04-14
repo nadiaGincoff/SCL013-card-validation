@@ -48,9 +48,4 @@ formulario.addEventListener("submit", function(event){
     // Cancela el evento del submit, previene la pagina de recargarse  
     event.preventDefault();
     enviarFormulario();
-<<<<<<< HEAD
 })
-
-=======
-})
->>>>>>> 00194d49a8ba9e6b7f4911fb006a82bd4fc04b24
