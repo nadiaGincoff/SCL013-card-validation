@@ -16,6 +16,18 @@ body{
     text-align: center;
     height: 5%;
 }
+<<<<<<< HEAD
+=======
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8C1663;
+    text-align: center;
+    height: 5%;
+}
+>>>>>>> 00194d49a8ba9e6b7f4911fb006a82bd4fc04b24
   .footerContent {
     color: white;
     text-align: left;
@@ -49,6 +61,16 @@ h1 {
     margin-bottom: 5px;
     text-align: center;
 }
+<<<<<<< HEAD
+=======
+h3{
+    color:#F2F2F2;
+    font-size: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 0px;
+}
+>>>>>>> 00194d49a8ba9e6b7f4911fb006a82bd4fc04b24
 p {
     color:#A6147F;
     font-size: 24px;
@@ -82,6 +104,7 @@ button {
     flex-direction:column;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
    
 }
 form fieldset {
@@ -143,11 +166,55 @@ form fieldset {
 }
 .fieldset {
  background-color: white;
+=======
+    font-family: 'Playfair Display', serif;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formulario {
+    border: 1px #8c1663;
+    background: #8c1663;
+    width: 500px;
+    border-radius: 10px;
+}
+.formularioValidacion{
+    width: 100%;
+    padding: -2px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    background: #8c1663;
+    margin-bottom: -9px;
+}
+.formularioIndex{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.label {
+    font-size: large;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.celda {
+    width: 100%;
+    padding: 2px 20px;
+    margin: 2px 0;
+    border: 0px;
+    box-sizing: border-box;
+    background-color: #FFFEE6;
+    border-radius: 10px;
+>>>>>>> 00194d49a8ba9e6b7f4911fb006a82bd4fc04b24
 }
 .btnValidar {
     border: 0px;
     padding: 10px;
     border-radius: 5px;
+<<<<<<< HEAD
     background-color: #FDDC17;
     color: white;
     cursor: pointer;
@@ -161,4 +228,68 @@ form fieldset {
     color: white;
     cursor: pointer;
     display: inline-block;
+=======
+    background-color: #F2D43D;
+    color: #8c1663;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+}
+.btnEnviar {
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F2D43D;
+    color: #8c1663;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 150px;
+    font-family: 'Playfair Display', serif;}
+    
+.ti{
+    color: #F2D43D;
+}
+.tituloFormulario{
+    font-family: 'Playfair Display', serif;
+    color: #F2D43D;
+
+}
+.legend{
+    font-family: 'Playfair Display', serif;
+    color: #F2D43D;
+}
+fieldset{
+    margin-bottom: 2px;
+}
+.pantalla3{
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.mensaje {
+    border: 1px #8c1663;
+    background: #8c1663;
+    width: 500px;
+    border-radius: 10px;
+    height: 750px;
+    margin-left: 550px;
+}
+   
+h4 {
+    color: #F2F2F2;
+    font-size: 24px;
+    line-height: 33px;
+    width: 50%;
+    margin:auto;
+    text-align:center;
+    padding: 30px;
+    display: table-cell;
+>>>>>>> 00194d49a8ba9e6b7f4911fb006a82bd4fc04b24
 }
