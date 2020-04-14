@@ -1,131 +1,115 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <section id="pantalla-dividida">
-    <div class="izquierda">
-    </div>
-    <div class="derecha">
-      <h1><span class="titulo">Amiga</span>
-        <br>
-        Yo te llevo</h1>
+        <section class="pantallaBienvenida" id="pantallaBienvenida">
+            <div class="izquierda"></div>
+            <div class="derecha">
+              <h1><span class="titulo">Amiga</span>
+                <br>
+                Yo te llevo</h1>
+              <div id="informacion" class="informacion">
+                <p>
+                Sabemos que transportarnos, movernos, trasladarnos,
+                para nosotras es una situación complicada,
+                nos sentimos vulnerables, intranquilas y muchas veces
+                con miedo. <br>
+                Por eso llegó "Amiga, yo te llevo"!, una app unicamente para mujeres.<br>
+                Tú como "conductora o pasajera", 
+                podrás sentir mayor seguridad al momento de elegir una app
+                para movilizarte, simplemente registrandote ya serás parte de nuestra comunidad 
+                y podrás comenzar a disfrutar de viajes seguros y confiables.</p>
+              <h2 class="lema">Queremos que la SORORIDAD se vuelve costumbre.</h2>
+                 <button id="btnRegistrarse" class="btnRegistrarse"> Unete a nuestra comunidad </button>
+                </div>
+            </div> 
+        </section>
+        <section class="pantallaFormulario" id="pantallaFormulario">
 
-      <div id="informacion">
-        <p>
-          Sabemos que transportarnos,movernos,trasladarnos,
-          para nosotras es una situacion complicada,
-          nos sentimos vulnerables,intranquilas y muchas veces
-          con miedo por eso llegó "Amiga, yo te llevo",
-          <br>
-          Tu como usuaria,"conductora o pasajera",
-          podras sentir mayor seguridad al momento de elegir una app
-          para movilizarte, simplemente registrandote en un sencillo
-          formulario ya serás parte de nuestra comunidad
-          y podrás comenzar a disfrutar de viajes seguros y confiables.</p>
-        <h2>Queremos que la SORORIDAD se vuelve costumbre.</h2>
+            <div id="formulario" class="formulario" style="display: none;">
 
-        <button id="btnRegistrarse"> Unete a nuestra comunidad </button>
-      </div>
-    </div>
-  </section>
+                <div class="formularioIndex">
+                  <h3><span class="ti">Amiga</span>
+                    <br>
+                    Yo te llevo</h3>
+                  <form id="datos1" onsubmit="enviarFormulario();">
+                    <legend class="tituloFormulario"> FORMULARIO DE REGISTRO
+                    </legend>
+                    <fieldset>
+                        <legend class="legend"> DATOS PERSONALES</legend>
+                    <label for="name" class="label">Nombre</label>
+                    <br>
+                        <input type="text" class="celda" min="3" max="15" required placeholder="Nombre"/>
+                    <br>
+                    <label for="name" class="label">Apellido</label>
+                    <br>
+                        <input type="text" class="celda" min="3" max="15" required placeholder="Apellido"/>
+                    <br>
+                    <label for="name" class="label">Edad </label>
+                    <br>
+                        <input type="number" class="celda" id="age" name="age" min="18" max="80" required />
+                    <br>
+                    <label for="email-example" class="label">Email</label>
+                    <br>
+                        <input type="email" class="celda" id="email-principal" placeholder="ejemplo@ejemplo.com" name="email-example" required />
+                    <br>
+                    <label for="email-example" class="label">Email de contacto de Confianza</label>
+                    <br>
+                        <input type="email" class="celda" id="email-confianza" placeholder="ejemplo@ejemplo.com"  name="email-example" required />
+                    <br>
+                    <label for="password-example" class="label">Contraseña</label>
+                    <br>
+                         <input type="password" class="celda" id="password-example" name="password-example" required />
+                    <br>
+                    <label for="tel"class="label">Número Telefónico</label>
+                    <br>
+                         <input type="tel" class="celda" id="target" name="target" min="9" max="9" placeholder="9 5432 1234" inputmode="numeric">
+                    <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="legend"> VALIDAR TARJETA</legend>
+                    <div class="formularioValidacion">
+                      <span class="label">Para registrarse, valide su tarjeta de credito</span>
+                      <br>
+                      <label for="card_number" class="label">NUMERO DE TARJETA DE CREDITO</label>
+                      <br>
+                        <input type="text" class="celda" placeholder="1234 5678 9012 3456" id="creditCardNumber" name="cc_number" required autofocus min="16" max="16" pattern="[0-9-#]{16}" title="Ha ingresado una tarjeta incorrecta">
+                        <input type="button" id="btnValidar" name="btnValidar" class="btnValidar" value="VALIDAR">
+                        <p id="tarjetaValidada" class="mensajeValidado"></p>
+                    </div>
+                    </fieldset>
+                    <button type="submit" id="btnEnviar" class="btnEnviar">Registrate con nosotras</button>
+                  </div>
+                </form>
+            </div>
+            </div>
+        </section>
+        <section id="mensajeFinal" class="pantalla3" style="display: none;">
+            <div class="mensaje" id=final>
+                <h4>¡Gracias por registrarte!
+                  <br>
+                  <br>
+                  Ya eres parte de esta gran comunidad y puedes empezar a disfrutar de
+                  nuestra aplicacion.
+                  Que el transportarte nunca mas sea motivo de miedo para ti.
+                  Mueve donde quieras y a la hora que quieres.
+                  <br>
+                  <br>
+                  Ser amigas esta de moda.</h4>
+              </div>
+        </section>
+    </main>
+    <script src="index.js" type="module"></script>
 
-  <!--pagina 2 Formulario-->
-  <div id="formulario" class="formularioamarillo" style="display: none;">
-
-    <div class="formularioblanco">
-      <img src="logoamarillo.png" alt="amiga, yo te llevo" id="logo">
-
-      <form id="datos1" class="datos">
-
-        <label for="name">Nombre</label>
-        <br>
-        <input type="text" class="celda" min="3" max="15" required />
-        <br>
-w
-        <label for="name">Apellido</label>
-        <br>
-        <input type="text" class="celda" min="3" max="15" required />
-        <br>
-
-        <label for="name">Edad </label>
-        <br>
-        <input type="number" id="age" name="age" min="10" max="80" placeholder="edad">
-        <br>
-
-        <label>Sexo:
-          <input type="radio" name="hm" value="h"> Hombre
-          <input type="radio" name="hm" value="m"> Mujer
-        </label>
-        <br>
-
-        <label for="email-example">Correo Electrónico</label>
-        <br>
-        <input type="email" id="email-principal" placeholder="Email" name="email-example" required />
-        <br>
-
-        <label for="email-example">Contacto de Confianza</label>
-        <br>
-        <input type="email" id="email-confianza" placeholder="Email" name="email-example" required />
-        <br>
-
-        <label for="password-example">Contraseña</label>
-        <br>
-        <input type="password" id="password-example" placeholder="password" name="password-example" required />
-        <br>
-        <label for="tel">Número Telefónico</label>
-        <br>
-        <input type="tel" id="target" name="target" min="12" max="12">
-        <br>
-
-        <label>
-          <input type="checkbox" name="conditions" value="accept-conditions" checked />
-          Acepto los términos y condiciones
-        </label>
-      </form>
-
-
-      <div class="demo">
-        <form><span>VALIDADOR</span>
-          <br>
-          <label for="card_number">NUMERO DE TARJETA DE CREDITO</label>
-          <br>
-          <input type="text" placeholder="1234 5678 9012 3456" id="numeroDeTarjeta" name="cc_number">
-          <br>
-          <small class="help">Valida tarjetas: Visa, MasterCard, American Express.</small>
-
-          <li class="validador">
-            <label for="">VALIDAR</label>
-            <br>
-            <input type="submit" id="btnValidar" name="btnValidar" value="Click">
-          </li>
-        </form>
-      </div>
-      <button id="btnEnviar">Registrate con Nosotras</button>
-    </div>
-  </div>
-  
-<!-- Se podria hacer que el btn enviar valide el boton para registrarse, sino, no se puede utilizar -->
-
-  <div id="mensajeFinal" style="display: none;">
-    <p>!Gracias por registrarte!
-      Ya eres parte de esta gran comunidad y puedes empezar a disfrutar de
-      nuestra aplicacion.
-
-      Que el transportarte nunca mas sea motivo de miedo para ti.
-      Mueve donde quieras y a la hora que quieres.
-      Ser amigas esta de moda.</p>
-  </div>
-  <script src="index.js" type="module"></script>
+    
+    <footer class="footer">
+      <a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Vector de Fondo creado por Harryarts - www.freepik.es</a>
+    </footer>
+    
 </body>
-
 </html>
-
