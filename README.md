@@ -1,5 +1,3 @@
-# Tarjeta de crédito válida
-
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
@@ -10,7 +8,7 @@
 * [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 * [7. Checklist](#8-checklist)
 
-***
+*
 
 ## 1. Preámbulo
 
@@ -48,41 +46,41 @@ como tecnologías.
 Dicho en palabras sencillas, aprenderás a:
 
 * Organizar tu tiempo y priorizar tareas en un entorno de
-  **alta incertidumbre**.
-* Entender las **necesidades del usuario** y cómo proponer una solución.
+  *alta incertidumbre*.
+* Entender las *necesidades del usuario* y cómo proponer una solución.
 * Entender la importancia del proceso de prototipado durante la creación de un
   producto digital.
 * Utilizar etiquetas semánticas de HTML y elementos de formulario.
-* Mostrar elementos de formulario en la pantalla usando **HTML** y **CSS**.
+* Mostrar elementos de formulario en la pantalla usando *HTML* y *CSS*.
 * Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id.
 * Utilizar el modelo de cajas de CSS (border, margin, padding).
 * Definir reglas de estilo en CSS.
 * Permitir al usuario interactuar con elementos del DOM y hacer que la
-  aplicación responda cuando ocurran esos **eventos del DOM**.
-* Manipular _**strings**_ (cadenas de texto).
-* Usar **control de flujo** (bucles, condicionales, ...).
-* Actualizar la pantalla con los resultados (**manipular el DOM**) a través de
-  **innerHTML** o **textContent**.
-* **Implementar funciones** dada una descripción de su comportamiento.
+  aplicación responda cuando ocurran esos *eventos del DOM*.
+* Manipular *strings* (cadenas de texto).
+* Usar *control de flujo* (bucles, condicionales, ...).
+* Actualizar la pantalla con los resultados (*manipular el DOM*) a través de
+  *innerHTML* o *textContent*.
+* *Implementar funciones* dada una descripción de su comportamiento.
 * Verificar que tus funciones hagan las cosas para las que fueron creadas
-  (**pruebas unitarias (_unit tests_) con [Jest](https://jestjs.io/es-ES/)**).
+  (*pruebas unitarias (unit tests) con [Jest](https://jestjs.io/es-ES/)***).
 * Configurar tu cuenta de git.
-* Hacer _fork_ y _clonar_ el repositorio del proyecto.
+* Hacer fork y clonar el repositorio del proyecto.
 * Mantener actualizado los cambios en tu repositorio remoto
   (commit, pull, push).
 * Desplegar tu proyecto en [GitHub Pages](https://pages.github.com).
 
 ## Sotf Skills o Habilidades Blandas
 
-* **Planificación, organización y manejo del tiempo** : Organizarse de manera general, haciendo una estimación aproximada de los tiempos que se necesitarán para la realización del proyecto. Conocer las ceremonias y artefactos ágiles (sprint planning, dailys, retrospectiva, revisión de tablero en trello al menos, etc) a pesar de que no se utilicen con regularidad.
-* **Autoaprendizaje** : Demostrar interés y adquirir nuevos conocimientos autónomamente, estudiando de manera independiente, lo que se traduce, en que cuando es necesario, la estudiante buscará aclarar conceptos y resolver dudas sobre la materia.
-* **Presentaciones** : Utilizar ciertas estrategias para hablar en público (tono y ritmo de voz adecuado, contacto visual con el público, interacción con medios de presentación), que permitan asegurar un mediano entendimiento de la audiencia.
-* **Adaptabilidad** : Afrontar los cambios inesperados o nuevos desafíos con una actitud positiva, aunque no necesariamente se logre accionar o adaptarse de la mejor manera a los diferentes contextos.
-* **Solución de problemas** : Trabajar en la búsqueda y en la elaboración de soluciones alternativas a problemas de mediana complejidad.
-* **Responsabilidad** : Demostrar actitud de compromiso, reflejandolo en la entrega de trabajo a tiempo, conectándose a la hora acordada y/o avisando cuando no se pueda asistir.
-* **Dar y recibir feedback** : Escuchar los comentarios y críticas de los demás de manera respetuosa, y/o comunicar a los demás las opiniones de forma constructiva.
-* **Comunicación eficaz** : Comunicar ideas a los demás cuando es necesario, aunque no siempre se fomenten de manera proactiva estas instancias de comunicación.
-* **Trabajo en equipo** : Trabajar con otros de forma colaborativa y en base a un objetivo común, entregando ideas para la construcción del proyecto.
+* *Planificación, organización y manejo del tiempo* : Organizarse de manera general, haciendo una estimación aproximada de los tiempos que se necesitarán para la realización del proyecto. Conocer las ceremonias y artefactos ágiles (sprint planning, dailys, retrospectiva, revisión de tablero en trello al menos, etc) a pesar de que no se utilicen con regularidad.
+* *Autoaprendizaje* : Demostrar interés y adquirir nuevos conocimientos autónomamente, estudiando de manera independiente, lo que se traduce, en que cuando es necesario, la estudiante buscará aclarar conceptos y resolver dudas sobre la materia.
+* *Presentaciones* : Utilizar ciertas estrategias para hablar en público (tono y ritmo de voz adecuado, contacto visual con el público, interacción con medios de presentación), que permitan asegurar un mediano entendimiento de la audiencia.
+* *Adaptabilidad* : Afrontar los cambios inesperados o nuevos desafíos con una actitud positiva, aunque no necesariamente se logre accionar o adaptarse de la mejor manera a los diferentes contextos.
+* *Solución de problemas* : Trabajar en la búsqueda y en la elaboración de soluciones alternativas a problemas de mediana complejidad.
+* *Responsabilidad* : Demostrar actitud de compromiso, reflejandolo en la entrega de trabajo a tiempo, conectándose a la hora acordada y/o avisando cuando no se pueda asistir.
+* *Dar y recibir feedback* : Escuchar los comentarios y críticas de los demás de manera respetuosa, y/o comunicar a los demás las opiniones de forma constructiva.
+* *Comunicación eficaz* : Comunicar ideas a los demás cuando es necesario, aunque no siempre se fomenten de manera proactiva estas instancias de comunicación.
+* *Trabajo en equipo* : Trabajar con otros de forma colaborativa y en base a un objetivo común, entregando ideas para la construcción del proyecto.
 
 ## 4. Consideraciones generales
 
@@ -101,8 +99,19 @@ En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proc
 para definir el producto final a nivel de experiencia y de interfaz.
 
 * Quiénes son los principales usuarios de producto.
+R:Son todas las mujeres mayores de 18 años, que cuenten con una tarjeta de crédito a su nombre.
+
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
+R:Encontrar un método de transporte seguro.
+  Dar mayor empleabilidad a mujeres(conductoras).
+  Lograr mayor independencia a la hora de movilizarse.
+  Conseguir una app amigable, segura y facil de utilizar, al momento de querer transportarse
+
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
+R:Al ser una app exclisiva para mujeres, se estima bajar las probabilidades de secuestros, violaciones y agresiones de cualquier tipo, que generan la mayor inseguridad en las mujeres.
+Adicionalmente la app solicita para su utilizacion, un previo registro el cual se ejecuta si cada mujer valida una tarjeta de crédito de su titularidad, lo que entrega un respaldo que la inscripción es fidedigna y realmente es una mujer la que ingresa a la comunidad.
+Para hacer mas util nuestra app tendrá como novedad que al registrarte podrás ingresar a un contacto de seguridad, al cual cada vez que realices un viaje le llegara una notificación con los datos de tu viaje, recorrido, datos del conductor, calles utilizadas y tu ubicación en tiempo real.
+
 
 ### Interfaz de usuario (UI)
 
@@ -123,6 +132,7 @@ cómo tu aplicación lo soluciona.
 * Luego valida esta solución con una compañera (pedir feedback).
 * Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
   nuevo prototipo usando alguna herramienta para diseño de prototipos
+
   ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
   [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
 Estos puntos los presentarás en el `README.md`.
@@ -136,18 +146,31 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+R: Amiga, Yo te llevo.
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+R: Nuestro proyecto se trata de una app para transportarse en autos particulares utilizados como taxis, exclusivo 
+para mujeres, que tiene como caracteristica principal tener una tarjeta de credito a tu nombre para registrarte.
 * La imagen final de tu proyecto.
+
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+  R: Los usuarios seran mujeres mayores de 18 años con una tarjeta de credito bajo su titularidad, y los objetivos
+    relacionados con nuestro productos son entregar un app que haga sentir mas seguras a todas las mujeres al momento de movilizarce.
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+ R: Al ser una app diseña por mujeres y para mujeres, podemos llegar a entender de mejor forma que siente cada usuaria,
+ por esto es una aplicacion exclusiva para mujeres, donde la seguridad es lo mas importante y el registro para ser parte
+ de esta comunidad es riguroso, ademas hemos agregado para dar mayor satisfaccion a las usuarias medidas inovadoras, como al momento de registrarse el formulario les solicita un contacto de confianza al cual se le notificara los viajes que realice, la ubicacion en tiempo real de cada viaje y un chat desde la aplicacion con este contacto para poder comunicarse de manera fluida durante el viaje, con estas medidas aumentaremos la seguridad de cada usuaria para que el transportarse nunca mas sea motivo de miedo.
   3. Luego colocarás la foto de tu primer prototipo en papel.
+https://github.com/nadiaGincoff/SCL013-card-validation/blob/master/src/Prototipo-en-papel.jpeg
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+ R: Al mostrar el prototipado, las usuarias nos dieron feedbalck de la ubicacion de los botones y de la importancia de especificar bien en los campos de formulario que datos deben ser ingresados, ademas mencionaron que les gustarian colores
+ vivos y que les agradaba la idea de que se validara conjunto con su tarjeta de credito.
   5. Imagen del prototipo final.
+  https://nadiagincoff874699.invisionapp.com/overview/prototipofinal-ck8glf1tk04sp019t2tlxf218/screens?v=bIOUa7Vk7%2BwWWSoZuzzlBg%3D%3D&linkshare=urlcopied
 
-#### Visualmente (HTML y CSS)
+#### Visualmente (HTML y CSS) 
 
 Deberás maquetar de forma exacta el prototipo final que hiciste en la herramienta
 de diseño de prototipos que escogiste utilizando HTML y CSS. En este momento elegirás
@@ -176,7 +199,7 @@ propias reglas, por eso NO está permitido el uso de frameworks de CSS
 * La lógica del proyecto debe estar implementada completamente en JavaScript.
 * En este proyecto NO está permitido usar librerías o frameworks, sólo JavaScript
 puro también conocido como Vanilla JavaScript.
-* No se debe utilizar la _pseudo-variable_ `this`.
+* No se debe utilizar la pseudo-variable `this`.
 
 Vas a tener 2 archivos JavaScript separando responsabilidades, a continuación
 indicamos qué harás en cada archivo:
@@ -187,15 +210,15 @@ Acá escribirás las funciones necesarias para que el usuario pueda verificar la
 tarjeta de crédito y ocultar los dígitos de su número de tarjeta.
 Esta función debe ser pura e independiente del DOM.
 
-Para esto debes implementar el **objeto `validator`**, el cual ya se encuentra
-_exportado_ en el _boilerplate_. Este objeto (`validator`) contiene
+Para esto debes implementar el *objeto `validator`*, el cual ya se encuentra
+exportado en el boilerplate. Este objeto (`validator`) contiene
 dos métodos (`isValid` y `maskify`):
 
-* **`validator.isValid(creditCardNumber)`**: `creditCardNumber` es un `string`
+* *`validator.isValid(creditCardNumber)`*: `creditCardNumber` es un `string`
 con el número de tarjeta que se va a verificar. Esta función debe retornar un
 `boolean` dependiendo si es válida de acuerdo al [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
 
-* **`validator.maskify(creditCardNumber)`**: `creditCardNumber` es un `string` con
+* *`validator.maskify(creditCardNumber)`*: `creditCardNumber` es un `string` con
 el número de tarjeta y esta función debe retornar un `string` donde todos menos
 los últimos cuatro caracteres sean reemplazados por un numeral (`#`) o 🐱.
 Esta función deberá siempre mantener los últimos cuatro caracteres intactos, aún
@@ -203,12 +226,12 @@ cuando el `string` sea de menor longitud.
 
     Ejemplo de uso
 
-    ```js
+    js
     maskify('4556364607935616') === '############5616'
     maskify(     '64607935616') ===      '#######5616'
     maskify(               '1') ===                '1'
     maskify(               '')  ===                ''
-    ```
+    
 
 ##### `src/index.js`
 
@@ -222,11 +245,11 @@ según sea necesario para actualizar el resultado en la pantalla (UI).
 En este archivo tendrás que completar las pruebas unitarias de las funciones
 `validator.isValid(creditCardNumber)` y `validator.maskify(creditCardNumber)`
 implementadas en `validator.js` utilizando [Jest](https://jestjs.io/es-ES/).
-Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura),
-_statements_ (sentencias), _functions_ (funciones) y _lines_ (líneas); y un
-mínimo del 50% de _branches_ (ramas).
+Tus pruebas unitarias deben dar un 70% en coverage (cobertura),
+statements (sentencias), functions (funciones) y lines (líneas); y un
+mínimo del 50% de branches (ramas).
 
-***
+*
 
 ## 6. Pistas, tips y lecturas complementarias
 
@@ -240,19 +263,19 @@ mínimo del 50% de _branches_ (ramas).
   que es un programita que interpreta líneas de comando (command-line
   interpreter) así como tener [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git)
   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-  ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
+  ya tienes una shell (terminal) instalada por defecto (y probablemente `git`
   también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.net/)
   que incluye [Git bash](https://git-scm.com/download/win) y si tienes Windows 10
   o superior puedes usar [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 3. Una de las integrantes del equipo debe realizar un :fork_and_knife:
   [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
-  tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
+  tus coaches te compartirán un link a un repo y te darán acceso de lectura
   en ese repo. La otra integrante del equipo deber hacer un fork **del
   repositorio de su compañera** y
   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
   hacia el mismo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-  tu _fork_ a tu computadora (copia local).
+  tu fork a tu computadora (copia local).
 5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
   asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
 6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
@@ -305,7 +328,7 @@ Organización del Trabajo:
 * [Scrum en menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
 * [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
   esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
-  poco a lo largo del -_bootcamp_.
+  poco a lo largo del -bootcamp.
 * [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
 
 ## 7. Checklist
@@ -325,8 +348,8 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 * [ ] Implementa `validator.maskify`.
 * [ ] Pasa linter con configuración provista.
 * [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
-  mínimo del 50% de _branches_.
+* [ ] Pruebas unitarias cubren 70% de statements, functions y lines, y un
+  mínimo del 50% de branches.
 * [ ] Interfaz permite ingresar un número para ser validado.
 * [ ] Interfaz muestra el resultado de la validación correctamente.
 * [ ] Interfaz debe ocultar con (`#`) todos los dígitos con excepción de los últimos cuatro.
