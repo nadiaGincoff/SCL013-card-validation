@@ -1,9 +1,8 @@
-// let creditCardNumber = "4546420024453980";
-
 // 1st for() = variable contador = la longitud del string menos 1,
 // ya que los array comienzan en 0
 // i >= 0 porque 0 es mi posicion inicial 
 // i-- recorro el for al inverso  
+
 const validator = {
 
     isValid: function (creditCardNumber) {
@@ -18,7 +17,6 @@ const validator = {
         // Agrego al array mediante push
         arrCreditCardNumber.push(numero);
       }
-      console.log("El array invertido es: " + arrCreditCardNumber);
       // Creo un nuevo array para guardar los numeros finales
       let numeroMultiplicadoYSumado = [];
       // Recorro el array con el forEach, poniendo el numero a multiplicar[elemento del array], y la posicion[array]
@@ -45,7 +43,6 @@ const validator = {
       let suma = 0;
       for (let i = 0; i < numeroMultiplicadoYSumado.length; i++) {
         suma += numeroMultiplicadoYSumado[i];
-        console.log("La suma es: " + suma);
       } if (suma % 10 === 0) {
         return true;
       } else {

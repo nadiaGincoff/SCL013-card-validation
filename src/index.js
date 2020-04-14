@@ -4,7 +4,6 @@ import validator from './validator.js';
 
 ///  VARIABLES 
 
-const pantallaDeBienvenida = document.getElementById("pantallaBienvenida");
 const formulario = document.getElementById("formulario");
 const btnRegistrarse = document.getElementById("btnRegistrarse");
 const btnValidar = document.getElementById("btnValidar");
@@ -15,7 +14,7 @@ const mensajeFinal = document.getElementById("mensajeFinal");
 
 // Mostrar el formulario y ocultar la primer pantalla de informacion y boton registro
 function mostrarFormulario() {
-    pantallaBienvenida.style.display = "none";
+    document.getElementById("pantallaBienvenida").style.display = "none";
     formulario.style.display = "block";
 }
 
@@ -26,12 +25,15 @@ function enviarFormulario() {
 
 ///   EVENTOS 
 // Agrego funcionalidad al boton registrarse.
-btnRegistrarse.addEventListener("click", function(event){
+btnRegistrarse.addEventListener("click", function(){
     mostrarFormulario();
 })
 
-btnValidar.addEventListener("click", function(event){
+btnValidar.addEventListener("click", function(){
     let numeroDeTarjeta = document.getElementById("creditCardNumber").value;
+    if (numeroDeTarjeta.length < 16) {
+        return 
+    }
     let tarjetaEnmascarada = validator.maskify(numeroDeTarjeta);
     let validar = validator.isValid(numeroDeTarjeta);
     if(validar){
@@ -44,7 +46,7 @@ btnValidar.addEventListener("click", function(event){
     }
 })
 // Agrego evento "submit" para enviar formulario 
-formulario.addEventListener("submit", function(event){
+formulario.addEventListener("submit", function(){
     // Cancela el evento del submit, previene la pagina de recargarse  
     event.preventDefault();
     enviarFormulario();
