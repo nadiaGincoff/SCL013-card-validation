@@ -152,6 +152,9 @@ R: Nuestro proyecto se trata de una app para transportarse en autos particulares
 para mujeres, que tiene como caracteristica principal tener una tarjeta de credito a tu nombre para registrarte.
 * La imagen final de tu proyecto.
 
+https://nadia080290.github.io/SCL013-card-validation/
+
+
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.

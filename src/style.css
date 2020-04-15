@@ -15,11 +15,6 @@ body{
     text-align: center;
     height: 5%;
 }
-  .footerContent {
-    color: white;
-    text-align: left;
-    padding-left: 20%;
-}
 .izquierda {
     background:url(image.png);
     background-size: cover;
