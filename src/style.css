@@ -92,7 +92,7 @@ button {
 .formulario {
     border: 1px #8c1663;
     background: #8c1663;
-    width: 418px;
+    width: 500px;
     border-radius: 10px;
     margin-top: 5%;
 }
@@ -148,7 +148,7 @@ button {
     color: #8c1663;
     cursor: pointer;
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 150px;
     font-family: 'Playfair Display', serif;}
     
 .ti{
@@ -173,18 +173,15 @@ fieldset{
     align-items: center;
     justify-content: center;
     font-family: 'Playfair Display', serif;
-    background-image: url(fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  
 }
 .mensaje {
     border: 1px #8c1663;
     background: #8c1663;
     width: 500px;
     border-radius: 10px;
-    height: 750px;
-    margin-left: 550px;
+    height: 780px;
+    margin-left: 37%;
+    margin-top: 5%;
 }
    
 h4 {

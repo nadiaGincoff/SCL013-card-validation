@@ -42,7 +42,7 @@ btnValidar.addEventListener("click", function(){
         btnEnviar.disabled = false;
         btnValidar.disabled = true;
     } else {
-        document.getElementById("tarjetaValidada").innerHTML = "La tarjeta ingresada es incorrecta";
+        document.getElementById("tarjetaValidada").innerHTML = "Tarjeta inválida";
     }
 })
 // Agrego evento "submit" para enviar formulario 
