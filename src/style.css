@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Playfair Display', serif;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .footer {
     position: fixed;
@@ -11,11 +14,6 @@ body{
     background-color: #8C1663;
     text-align: center;
     height: 5%;
-}
-  .footerContent {
-    color: white;
-    text-align: left;
-    padding-left: 20%;
 }
 .izquierda {
     background:url(image.png);
@@ -42,6 +40,7 @@ h1 {
     font-size: 60px;
     margin-bottom: 5px;
     text-align: center;
+
 }
 h3{
     color:#F2F2F2;
@@ -84,16 +83,13 @@ button {
     align-items: center;
     justify-content: center;
     font-family: 'Playfair Display', serif;
-    background-image: url(fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-
 .formulario {
     border: 1px #8c1663;
     background: #8c1663;
-    width: 500px;
+    width: 418px;
     border-radius: 10px;
+    margin-top: 5%;
 }
 .formularioValidacion{
     width: 100%;
@@ -118,8 +114,8 @@ button {
 }
 .celda {
     width: 100%;
-    padding: 2px 20px;
-    margin: 2px 0;
+    padding: 4px 20px;
+    margin: 3px 0;
     border: 0px;
     box-sizing: border-box;
     background-color: #FFFEE6;
@@ -135,6 +131,10 @@ button {
     display: inline-block;
     font-family: 'Playfair Display', serif;
 }
+.mensajeValidado{
+    color: #F2D43D;
+
+}
 .btnEnviar {
     border: 0px;
     padding: 10px;
@@ -143,19 +143,19 @@ button {
     color: #8c1663;
     cursor: pointer;
     display: inline-block;
-    margin-left: 150px;
+    margin-left: 100px;
     font-family: 'Playfair Display', serif;}
     
 .ti{
     color: #F2D43D;
 }
 .tituloFormulario{
-    font-family: 'Playfair Display', serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #F2D43D;
 
 }
 .legend{
-    font-family: 'Playfair Display', serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #F2D43D;
 }
 fieldset{
@@ -191,4 +191,15 @@ h4 {
     text-align:center;
     padding: 30px;
     display: table-cell;
+}
+.gracias{
+    color: #F2D43D;
+}
+.footer{
+    height: 35px;
+    color:#db5fba;
+
+}
+.redes{
+    background-size: 100px;
 }

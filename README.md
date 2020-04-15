@@ -101,8 +101,19 @@ En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proc
 para definir el producto final a nivel de experiencia y de interfaz.
 
 * Quiénes son los principales usuarios de producto.
+R:Son todas las mujeres mayores de 18 años, que cuenten con una tarjeta de crédito a su nombre.
+
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
+R:Encontrar un método de transporte seguro.
+  Dar mayor empleabilidad a mujeres(conductoras).
+  Lograr mayor independencia a la hora de movilizarse.
+  Conseguir una app amigable, segura y facil de utilizar, al momento de querer transportarse
+
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
+R:Al ser una app exclisiva para mujeres, se estima bajar las probabilidades de secuestros, violaciones y agresiones de cualquier tipo, que generan la mayor inseguridad en las mujeres.
+Adicionalmente la app solicita para su utilizacion, un previo registro el cual se ejecuta si cada mujer valida una tarjeta de crédito de su titularidad, lo que entrega un respaldo que la inscripción es fidedigna y realmente es una mujer la que ingresa a la comunidad.
+Para hacer mas util nuestra app tendrá como novedad que al registrarte podrás ingresar a un contacto de seguridad, al cual cada vez que realices un viaje le llegara una notificación con los datos de tu viaje, recorrido, datos del conductor, calles utilizadas y tu ubicación en tiempo real.
+
 
 ### Interfaz de usuario (UI)
 
@@ -123,6 +134,7 @@ cómo tu aplicación lo soluciona.
 * Luego valida esta solución con una compañera (pedir feedback).
 * Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
   nuevo prototipo usando alguna herramienta para diseño de prototipos
+
   ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
   [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
 Estos puntos los presentarás en el `README.md`.
@@ -136,18 +148,32 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+R: Amiga, Yo te llevo.
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+R: Nuestro proyecto se trata de una app para transportarse en autos particulares utilizados como taxis, exclusivo 
+para mujeres, que tiene como caracteristica principal tener una tarjeta de credito a tu nombre para registrarte.
 * La imagen final de tu proyecto.
+https://nadia080290.github.io/SCL013-card-validation/
+
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+  R: Los usuarios seran mujeres mayores de 18 años con una tarjeta de credito bajo su titularidad, y los objetivos
+    relacionados con nuestro productos son entregar un app que haga sentir mas seguras a todas las mujeres al momento de movilizarce.
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+ R: Al ser una app diseña por mujeres y para mujeres, podemos llegar a entender de mejor forma que siente cada usuaria,
+ por esto es una aplicacion exclusiva para mujeres, donde la seguridad es lo mas importante y el registro para ser parte
+ de esta comunidad es riguroso, ademas hemos agregado para dar mayor satisfaccion a las usuarias medidas inovadoras, como al momento de registrarse el formulario les solicita un contacto de confianza al cual se le notificara los viajes que realice, la ubicacion en tiempo real de cada viaje y un chat desde la aplicacion con este contacto para poder comunicarse de manera fluida durante el viaje, con estas medidas aumentaremos la seguridad de cada usuaria para que el transportarse nunca mas sea motivo de miedo.
   3. Luego colocarás la foto de tu primer prototipo en papel.
+https://github.com/nadiaGincoff/SCL013-card-validation/blob/master/src/Prototipo-en-papel.jpeg
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+ R: Al mostrar el prototipado, las usuarias nos dieron feedbalck de la ubicacion de los botones y de la importancia de especificar bien en los campos de formulario que datos deben ser ingresados, ademas mencionaron que les gustarian colores
+ vivos y que les agradaba la idea de que se validara conjunto con su tarjeta de credito.
   5. Imagen del prototipo final.
+  https://nadiagincoff874699.invisionapp.com/overview/prototipofinal-ck8glf1tk04sp019t2tlxf218/screens?v=bIOUa7Vk7%2BwWWSoZuzzlBg%3D%3D&linkshare=urlcopied
 
-#### Visualmente (HTML y CSS)
+#### Visualmente (HTML y CSS) 
 
 Deberás maquetar de forma exacta el prototipo final que hiciste en la herramienta
 de diseño de prototipos que escogiste utilizando HTML y CSS. En este momento elegirás

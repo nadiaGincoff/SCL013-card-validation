@@ -34,21 +34,18 @@
             <div id="formulario" class="formulario" style="display: none;">
 
                 <div class="formularioIndex">
-                  <h3><span class="ti">Amiga</span>
+                  <h3>
+                    <span class="ti">Amiga</span>
                     <br>
                     Yo te llevo</h3>
-                  <form id="datos1" onsubmit="enviarFormulario();">
+                  <form id="datos1" onsubmit="enviarFormulario();" >
                     <legend class="tituloFormulario"> FORMULARIO DE REGISTRO
                     </legend>
                     <fieldset>
                         <legend class="legend"> DATOS PERSONALES</legend>
                     <label for="name" class="label">Nombre</label>
                     <br>
-                        <input type="text" class="celda" min="3" max="15" required placeholder="Nombre"/>
-                    <br>
-                    <label for="name" class="label">Apellido</label>
-                    <br>
-                        <input type="text" class="celda" min="3" max="15" required placeholder="Apellido"/>
+                        <input type="text" class="celda" min="3" max="15" required placeholder="Nombre Completo"/>
                     <br>
                     <label for="name" class="label">Edad </label>
                     <br>
@@ -58,40 +55,39 @@
                     <br>
                         <input type="email" class="celda" id="email-principal" placeholder="ejemplo@ejemplo.com" name="email-example" required />
                     <br>
-                    <label for="email-example" class="label">Email de contacto de Confianza</label>
-                    <br>
-                        <input type="email" class="celda" id="email-confianza" placeholder="ejemplo@ejemplo.com"  name="email-example" required />
-                    <br>
                     <label for="password-example" class="label">Contraseña</label>
                     <br>
                          <input type="password" class="celda" id="password-example" name="password-example" required />
                     <br>
-                    <label for="tel"class="label">Número Telefónico</label>
+                    <label for="tel" class="label"> Número Telefónico </label>
                     <br>
-                         <input type="tel" class="celda" id="target" name="target" min="9" max="9" placeholder="9 5432 1234" inputmode="numeric">
+                         <input type="tel" class="celda" id="target" name="target" min="9" max="9" placeholder="9 5432 1234" inputmode="numeric" />
+                    <br>
+                    <label for="email-example" class="label">Email Contacto de Confianza</label>
+                    <br>
+                        <input type="email" class="celda" id="email-confianza" placeholder="ejemplo@ejemplo.com"  name="email-example" required />
                     <br>
                     </fieldset>
                     <fieldset>
                         <legend class="legend"> VALIDAR TARJETA</legend>
-                    <div class="formularioValidacion">
-                      <span class="label">Para registrarse, valide su tarjeta de credito</span>
-                      <br>
-                      <label for="card_number" class="label">NUMERO DE TARJETA DE CREDITO</label>
-                      <br>
-                        <input type="text" class="celda" placeholder="1234 5678 9012 3456" id="creditCardNumber" name="cc_number" required autofocus min="16" max="16" pattern="[0-9-#]{16}" title="Ha ingresado una tarjeta incorrecta">
+                       <div class="formularioValidacion">
+                        <span class="label">Para registrarse, valide su tarjeta de credito</span>
+                        <br>
+                        <label for="card_number" class="label">NUMERO DE TARJETA DE CREDITO</label>
+                        <br>
+                        <input type="text" class="celda" placeholder="1234 5678 9012 3456" id="creditCardNumber" name="cc_number" autofocus min="16" max="16" pattern="[0-9-#]{16}" title="Ha ingresado una tarjeta incorrecta" required /> 
                         <input type="button" id="btnValidar" name="btnValidar" class="btnValidar" value="VALIDAR">
                         <p id="tarjetaValidada" class="mensajeValidado"></p>
-                    </div>
+                       </div>
                     </fieldset>
                     <button type="submit" id="btnEnviar" class="btnEnviar">Registrate con nosotras</button>
-                  </div>
                 </form>
-            </div>
+              </div>
             </div>
         </section>
         <section id="mensajeFinal" class="pantalla3" style="display: none;">
-            <div class="mensaje" id=final>
-                <h4>¡Gracias por registrarte!
+            <div class="mensaje" id="final">
+                <h4><span class="gracias">¡Gracias por registrarte!</span>
                   <br>
                   <br>
                   Ya eres parte de esta gran comunidad y puedes empezar a disfrutar de
@@ -100,16 +96,13 @@
                   Mueve donde quieras y a la hora que quieres.
                   <br>
                   <br>
-                  Ser amigas esta de moda.</h4>
+                  <span class="gracias">Ser amigas esta de moda.</span></h4>
               </div>
         </section>
-    </main>
     <script src="index.js" type="module"></script>
 
-    
     <footer class="footer">
-      <a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Vector de Fondo creado por Harryarts - www.freepik.es</a>
+     <img src="redes.png" alt="redes-sociales">
     </footer>
-    
 </body>
 </html>
