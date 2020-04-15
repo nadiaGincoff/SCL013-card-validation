@@ -17,6 +17,7 @@ describe('validator', () => {
     });
     });
 
+ 
   describe('validator.maskify', () => {
     test('debería ser una función', () => {
       expect(typeof validator.maskify).toBe('function');
